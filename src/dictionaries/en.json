@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "eyebrow": "// Available for remote work · Costa Rica",
+    "headline": "Full Stack Developer & AI Automation Engineer",
+    "subheadline": "I build systems that replace manual work — from SaaS platforms to WhatsApp automation pipelines. Trained at Forward Costa Rica. Available worldwide.",
+    "ctaWork": "View my work",
+    "ctaCv": "Download CV"
+  },
+  "projects": {
+    "title": "Projects",
+    "items": [
+      {
+        "title": "Alumni Platform UCR",
+        "type": "Web App · Full Stack",
+        "stack": ["Next.js 14", "Supabase", "NextAuth.js v5", "TypeScript", "PostgreSQL"],
+        "description": "Role-based platform for Costa Rica's largest public university, managing alumni records across three user roles (student, alumni, admin). Built with a team under a structured dev workflow."
+      },
+      {
+        "title": "Chamos House",
+        "type": "SaaS · Restaurant Management",
+        "stack": ["Node.js", "Express", "TypeScript", "Sequelize", "MySQL", "React", "Socket.io"],
+        "description": "Multi-tenant restaurant SaaS with real-time order management and a WhatsApp chatbot (\"Chamo, ordena\") that lets customers place orders in natural language. Includes live kitchen dashboard via WebSockets."
+      },
+      {
+        "title": "AI Outreach System — Novora",
+        "type": "Automation · B2B",
+        "stack": ["n8n", "PostgreSQL", "Google Maps scraping", "CSV pipeline", "Docker Swarm", "Easypanel"],
+        "description": "End-to-end B2B outreach system targeting dental clinics. Scraped and processed 430+ leads from Google Maps, built automated follow-up sequences, and deployed the full stack on self-hosted infrastructure."
+      },
+      {
+        "title": "Clínica Dental Sonrisa+ (Demo)",
+        "type": "AI Chatbot · WhatsApp Automation",
+        "stack": ["n8n", "Evolution API", "Chatwoot", "OpenAI Whisper", "Supabase"],
+        "description": "Demo environment for a virtual dental clinic receptionist (\"Valeria\") — handles appointment booking, patient follow-up, and audio transcription via WhatsApp. Built to demonstrate AI automation capabilities to B2B clients."
+      }
+    ]
+  },
+  "about": {
+    "title": "About",
+    "text": "I'm an 18-year-old Full Stack Developer and AI Automation Engineer based in Costa Rica, trained through Forward Costa Rica's Full Stack Web Development and AI Solutions for Business programs. I work at the intersection of product and infrastructure — I can build the UI, design the API, automate the workflow, and self-host the stack. Currently building AutoTaskAI, a B2B automation consultancy for health and dental clinics. Open to remote roles in full-stack development, AI integration, or automation engineering."
+  },
+  "skills": {
+    "title": "Skills",
+    "col1_title": "Frontend",
+    "col1_items": ["React", "Next.js", "TypeScript", "Tailwind"],
+    "col2_title": "Backend & Infra",
+    "col2_items": ["Node.js", "Express", "PostgreSQL", "Supabase", "Docker Swarm", "Easypanel"],
+    "col3_title": "AI & Automation",
+    "col3_items": ["n8n", "Evolution API", "OpenAI", "Anthropic", "LangChain", "Chatwoot"]
+  },
+  "contact": {
+    "title": "Contact",
+    "email": "tayroarce@gmail.com",
+    "cta1": "Let's build something",
+    "cta2": "Get in touch"
+  }
+}
