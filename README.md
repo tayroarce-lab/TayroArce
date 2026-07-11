@@ -1,36 +1,112 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Portfolio Personal — Tayro Arce
 
-## Getting Started
+Sitio web de portfolio personal construido con **Next.js 14**, **TypeScript** y **Tailwind CSS**. Diseño oscuro premium con soporte para inglés y español.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🛠️ Stack Tecnológico
+
+| Tecnología | Uso |
+|---|---|
+| Next.js 14 (App Router) | Framework principal |
+| TypeScript | Tipado estático |
+| Tailwind CSS v4 | Estilos |
+| Framer Motion | Animaciones |
+| Lucide React | Íconos |
+
+---
+
+## 📁 Estructura del Proyecto
+
+```
+src/
+├── app/
+│   ├── layout.tsx          # Layout raíz (fuentes, metadatos)
+│   ├── page.tsx            # Página principal
+│   └── globals.css         # Estilos globales y variables de color
+├── components/
+│   ├── Navbar.tsx          # Barra de navegación con selector de idioma
+│   ├── Hero.tsx            # Sección hero con animación
+│   ├── Projects.tsx        # Tarjetas de proyectos
+│   ├── About.tsx           # Foto + descripción personal
+│   ├── Skills.tsx          # Lista de tecnologías
+│   └── Contact.tsx         # Sección de contacto + footer
+├── contexts/
+│   └── LanguageContext.tsx # Contexto global para cambio de idioma
+└── dictionaries/
+    ├── en.json             # Todos los textos en inglés
+    └── es.json             # Todos los textos en español
+public/
+└── profile.png             # Foto de perfil
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ⚡ Cómo correr el proyecto localmente
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+# 1. Clona el repositorio
+git clone https://github.com/tayroarce-lab/portfolio.git
+cd portfolio
 
-## Learn More
+# 2. Instala las dependencias
+npm install
 
-To learn more about Next.js, take a look at the following resources:
+# 3. Corre el servidor de desarrollo
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🌐 Deploy en Vercel (recomendado)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Opción A — Deploy con un clic
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/tayroarce-lab/portfolio)
+
+### Opción B — Deploy manual paso a paso
+
+1. Crea una cuenta en [vercel.com](https://vercel.com) si no tienes una.
+2. Haz clic en **"Add New Project"**.
+3. Importa este repositorio desde GitHub.
+4. Vercel detecta automáticamente que es un proyecto Next.js — no necesitas configurar nada.
+5. Haz clic en **"Deploy"** y listo. Tu sitio estará en vivo en segundos.
+
+> **Nota:** No hay variables de entorno requeridas para este proyecto. Es 100% estático.
+
+---
+
+## ✏️ Cómo editar el contenido
+
+Todo el texto del sitio vive en dos archivos JSON, uno por idioma. Solo edita ahí y el cambio se refleja automáticamente en el sitio.
+
+| Archivo | Idioma |
+|---|---|
+| `src/dictionaries/en.json` | Inglés |
+| `src/dictionaries/es.json` | Español |
+
+### Cambiar la foto de perfil
+
+Reemplaza el archivo `public/profile.png` con tu nueva foto. Asegúrate de que se llame exactamente `profile.png`.
+
+---
+
+## 🎨 Personalizar colores
+
+Los colores del tema están definidos en `src/app/globals.css` dentro del bloque `@theme`:
+
+```css
+@theme {
+  --color-background: #0a0a0a;   /* Fondo principal */
+  --color-foreground: #f5f5f5;   /* Texto principal */
+  --color-accent: #7c3aed;       /* Color de acento (violeta) */
+}
+```
+
+---
+
+## 📄 Licencia
+
+MIT — Siéntete libre de usarlo como base para tu propio portfolio.

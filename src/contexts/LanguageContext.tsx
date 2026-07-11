@@ -25,8 +25,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
     if (savedLang && (savedLang === "en" || savedLang === "es")) {
       setLanguage(savedLang);
     } else {
-      const browserLang = navigator.language.startsWith("es") ? "es" : "en";
-      setLanguage(browserLang);
+      setLanguage("en");
     }
     setMounted(true);
   }, []);

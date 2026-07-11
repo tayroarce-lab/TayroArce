@@ -22,31 +22,31 @@
         "description": "SaaS multi-inquilino para restaurantes con gestión de pedidos en tiempo real y un chatbot de WhatsApp (\"Chamo, ordena\") que permite a los clientes hacer pedidos en lenguaje natural. Incluye dashboard de cocina en vivo vía WebSockets."
       },
       {
-        "title": "Sistema de Prospección IA — Novora",
+        "title": "Sistema de Prospección IA",
         "type": "Automatización · B2B",
-        "stack": ["n8n", "PostgreSQL", "Google Maps scraping", "CSV pipeline", "Docker Swarm", "Easypanel"],
-        "description": "Sistema de prospección B2B integral dirigido a clínicas dentales. Extrajo y procesó más de 430 prospectos de Google Maps, construyó secuencias de seguimiento automatizadas y desplegó toda la infraestructura autohospedada."
+        "stack": ["n8n", "Scraping", "CSV pipeline", "Docker", "Easypanel"],
+        "description": "Sistema de prospección B2B integral dirigido a correos de canales de Youtube. Extrajo y procesó más de 430 prospectos de Youtube, y construyó secuencias de seguimiento automatizadas."
       },
       {
         "title": "Clínica Dental Sonrisa+ (Demo)",
         "type": "Chatbot IA · Automatización en WhatsApp",
-        "stack": ["n8n", "Evolution API", "Chatwoot", "OpenAI Whisper", "Supabase"],
-        "description": "Entorno de demostración para una recepcionista virtual de clínica dental (\"Valeria\") — maneja la reserva de citas, seguimiento de pacientes y transcripción de audio vía WhatsApp. Construido para demostrar las capacidades de automatización IA a clientes B2B."
+        "stack": ["n8n", "Evolution API", "Chatwoot", "OpenAI", "Supabase"],
+        "description": "Entorno de demostración para una recepcionista virtual de clínica dental (\"Sofia\") — maneja la reserva de citas, seguimiento de pacientes y transcripción de audio vía WhatsApp. Construido para demostrar las capacidades de automatización IA a clientes B2B."
       }
     ]
   },
   "about": {
     "title": "Sobre Mí",
-    "text": "Soy un Desarrollador Full Stack y Arquitecto de Automatización IA de 18 años radicado en Costa Rica, formado a través de los programas de Desarrollo Web Full Stack y Soluciones IA para Negocios de Forward Costa Rica. Trabajo en la intersección del producto y la infraestructura — puedo construir la interfaz de usuario, diseñar la API, automatizar el flujo de trabajo y auto-hospedar la plataforma. Actualmente construyendo AutoTaskAI, una consultoría de automatización B2B para clínicas dentales y de salud. Abierto a roles remotos en desarrollo full-stack, integración de IA o ingeniería de automatización."
+    "text": "Soy un Desarrollador Full Stack y Arquitecto de Automatización IA radicado en Costa Rica, formado a través de los programas de Desarrollo Web Full Stack y Soluciones IA para Negocios de Forward Costa Rica. Trabajo en la intersección del producto y la infraestructura — puedo construir la interfaz de usuario, diseñar la API, automatizar el flujo de trabajo y auto-hospedar la plataforma. Actualmente construyendo AutoTaskAI, una consultoría de automatización B2B para clínicas dentales y de salud. Abierto a roles remotos en desarrollo full-stack, integración de IA o ingeniería de automatización."
   },
   "skills": {
     "title": "Habilidades",
     "col1_title": "Frontend",
     "col1_items": ["React", "Next.js", "TypeScript", "Tailwind"],
     "col2_title": "Backend e Infraestructura",
-    "col2_items": ["Node.js", "Express", "PostgreSQL", "Supabase", "Docker Swarm", "Easypanel"],
+    "col2_items": ["Node.js", "Express", "MySQL", "PostgreSQL", "Supabase", "Docker", "Easypanel"],
     "col3_title": "IA y Automatización",
-    "col3_items": ["n8n", "Evolution API", "OpenAI", "Anthropic", "LangChain", "Chatwoot"]
+    "col3_items": ["n8n", "Evolution API", "OpenAI", "Anthropic", "LangChain", "Chatwoot", "Make"]
   },
   "contact": {
     "title": "Contacto",

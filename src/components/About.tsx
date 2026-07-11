@@ -24,16 +24,15 @@ export function About() {
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
-            className="md:col-span-1 relative aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-[#E0F2FE] to-[#BAE6FD] border border-white/10"
+            className="md:col-span-1 relative aspect-square rounded-2xl overflow-hidden border border-white/10"
           >
-            {/* Image Placeholder */}
-            <div className="absolute inset-0 flex flex-col items-center justify-end p-6">
-              <div className="w-3/4 h-3/4 bg-[#1e293b]/10 backdrop-blur-sm rounded-t-[40%] border border-white/20 flex items-center justify-center relative overflow-hidden shadow-xl">
-                <span className="text-sm font-medium text-slate-800 text-center px-4">
-                  Image: Professional in polo shirt on light blue background (celeste)
-                </span>
-              </div>
-            </div>
+            <Image 
+              src="/profile.png" 
+              alt="Tayro Arce - Profile Picture" 
+              fill 
+              className="object-cover" 
+              priority
+            />
           </motion.div>
           
           <motion.div 
