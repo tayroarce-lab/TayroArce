@@ -40,20 +40,20 @@
     "items": [
       {
         "institution": "Forward Costa Rica",
-        "credential": "Full Stack Web Development",
-        "period": "2024",
+        "credential": "Full Stack Development",
+        "period": "2026",
         "description": "Intensive program covering React, Node.js, databases, and production deployment workflows. Collaborated on real-world team projects using agile methodologies."
       },
       {
         "institution": "Forward Costa Rica",
         "credential": "AI Solutions for Business",
-        "period": "2024",
-        "description": "Focused on practical AI integration for businesses: automation pipelines, LLM APIs, chatbot development, and B2B use cases."
+        "period": "2026",
+        "description": "Focused on practical AI integration for businesses: automation pipelines, LLM APIs, chatbot development, and B2B and B2C use cases."
       },
       {
         "institution": "Self-directed Learning",
         "credential": "n8n, LangChain & AI Automation",
-        "period": "2023 — Present",
+        "period": "2025 — Present",
         "description": "Deep dive into workflow automation (n8n), LLM orchestration (LangChain, OpenAI, Anthropic), WhatsApp integrations (Evolution API, Chatwoot), and self-hosted infrastructure."
       }
     ]
