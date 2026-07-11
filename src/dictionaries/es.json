@@ -1,7 +1,7 @@
 {
   "hero": {
-    "eyebrow": "// Disponible para trabajo remoto · Costa Rica",
-    "headline": "Desarrollador Full Stack e Ing. en Automatización IA",
+    "eyebrow": "// Disponible para trabajar · Costa Rica",
+    "headline": "Ing. en Automatización IA y Desarrollador Full Stack",
     "subheadline": "Construyo sistemas que reemplazan el trabajo manual — desde plataformas SaaS hasta pipelines de automatización en WhatsApp. Formado en Forward Costa Rica. Disponible a nivel mundial.",
     "ctaWork": "Ver mi trabajo",
     "ctaCv": "Descargar CV"
@@ -32,6 +32,29 @@
         "type": "Chatbot IA · Automatización en WhatsApp",
         "stack": ["n8n", "Evolution API", "Chatwoot", "OpenAI", "Supabase"],
         "description": "Entorno de demostración para una recepcionista virtual de clínica dental (\"Sofia\") — maneja la reserva de citas, seguimiento de pacientes y transcripción de audio vía WhatsApp. Construido para demostrar las capacidades de automatización IA a clientes B2B."
+      }
+    ]
+  },
+  "education": {
+    "title": "Educación",
+    "items": [
+      {
+        "institution": "Forward Costa Rica",
+        "credential": "Desarrollo Web Full Stack",
+        "period": "2024",
+        "description": "Programa intensivo que cubre React, Node.js, bases de datos y flujos de despliegue en producción. Colaboración en proyectos de equipo del mundo real con metodologías ágiles."
+      },
+      {
+        "institution": "Forward Costa Rica",
+        "credential": "Soluciones IA para Negocios",
+        "period": "2024",
+        "description": "Enfocado en integración práctica de IA para empresas: pipelines de automatización, APIs de LLM, desarrollo de chatbots y casos de uso B2B."
+      },
+      {
+        "institution": "Aprendizaje Autodidacta",
+        "credential": "n8n, LangChain y Automatización IA",
+        "period": "2023 — Presente",
+        "description": "Profundización en automatización de flujos (n8n), orquestación de LLMs (LangChain, OpenAI, Anthropic), integraciones de WhatsApp (Evolution API, Chatwoot) e infraestructura autohospedada."
       }
     ]
   },

@@ -15,6 +15,7 @@ export function Navbar() {
         <div className="flex items-center gap-6">
           <div className="hidden md:flex items-center gap-6 text-foreground/70">
             <a href="#projects" className="hover:text-foreground transition-colors">{dict.projects.title}</a>
+            <a href="#education" className="hover:text-foreground transition-colors">{dict.education.title}</a>
             <a href="#about" className="hover:text-foreground transition-colors">{dict.about.title}</a>
             <a href="#skills" className="hover:text-foreground transition-colors">{dict.skills.title}</a>
             <a href="#contact" className="hover:text-foreground transition-colors">{dict.contact.title}</a>

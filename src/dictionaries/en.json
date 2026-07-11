@@ -1,7 +1,7 @@
 {
   "hero": {
-    "eyebrow": "// Available for remote work · Costa Rica",
-    "headline": "Full Stack Developer & AI Automation Engineer",
+    "eyebrow": "// Available to work · Costa Rica",
+    "headline": "AI Automation Engineer & Full Stack Developer",
     "subheadline": "I build systems that replace manual work — from SaaS platforms to WhatsApp automation pipelines. Trained at Forward Costa Rica. Available worldwide.",
     "ctaWork": "View my work",
     "ctaCv": "Download CV"
@@ -32,6 +32,29 @@
         "type": "AI Chatbot · WhatsApp Automation",
         "stack": ["n8n", "Evolution API", "Chatwoot", "OpenAI", "Supabase"],
         "description": "Demo environment for a virtual dental clinic receptionist (\"Sofia\") — handles appointment booking, patient follow-up, and audio transcription via WhatsApp. Built to demonstrate AI automation capabilities to B2B clients."
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "items": [
+      {
+        "institution": "Forward Costa Rica",
+        "credential": "Full Stack Web Development",
+        "period": "2024",
+        "description": "Intensive program covering React, Node.js, databases, and production deployment workflows. Collaborated on real-world team projects using agile methodologies."
+      },
+      {
+        "institution": "Forward Costa Rica",
+        "credential": "AI Solutions for Business",
+        "period": "2024",
+        "description": "Focused on practical AI integration for businesses: automation pipelines, LLM APIs, chatbot development, and B2B use cases."
+      },
+      {
+        "institution": "Self-directed Learning",
+        "credential": "n8n, LangChain & AI Automation",
+        "period": "2023 — Present",
+        "description": "Deep dive into workflow automation (n8n), LLM orchestration (LangChain, OpenAI, Anthropic), WhatsApp integrations (Evolution API, Chatwoot), and self-hosted infrastructure."
       }
     ]
   },
