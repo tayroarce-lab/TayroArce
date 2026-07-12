@@ -11,9 +11,9 @@ export function Hero() {
   return (
     <section className="relative min-h-[90vh] flex items-center pt-24 pb-12 overflow-hidden">
       {/* Subtle background glow */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-accent/20 rounded-full blur-[120px] pointer-events-none opacity-50" />
+      <div className="absolute top-1/2 left-[20%] -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-accent/15 rounded-full blur-[140px] pointer-events-none opacity-60" />
 
-      <div className="max-w-5xl mx-auto px-6 w-full grid lg:grid-cols-2 gap-12 items-center relative z-10">
+      <div className="w-full max-w-7xl px-8 md:px-16 lg:px-24 grid lg:grid-cols-2 gap-16 items-center relative z-10">
         <div className="flex flex-col items-start gap-6">
           <motion.div
             initial={{ opacity: 0, y: 10 }}
