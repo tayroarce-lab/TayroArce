@@ -13,14 +13,14 @@
       {
         "role": "Freelance Full Stack & AI Automation Developer",
         "company": "Remote",
-        "period": "2026 — Present",
+        "period": "Mar 2026 — Present",
         "description": "Build and maintain production systems for clients: a WhatsApp switchboard and an AI diagnostics app for a YouTube agency, AI receptionists for clinics, an AI sales agent for an online store and B2B prospecting automation."
       },
       {
         "role": "AI Automation Developer (Backend & Frontend)",
         "company": "Voltify Ecom Partners",
         "period": "May 2025 — Feb 2026",
-        "description": "Designed and built AI-powered automation workflows for the agency's clients using LLM APIs, and supported backend and frontend development on client web projects."
+        "description": "Built AI automations and system integrations (LLM APIs, CRMs, email and custom REST APIs) for clients of an AI automation agency, and supported backend and frontend development of client web applications, APIs and internal tools."
       }
     ]
   },

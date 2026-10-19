@@ -10,7 +10,22 @@ const GithubIcon = ({ className }: { className?: string }) => (
   </svg>
 );
 
+const LinkedinIcon = ({ className }: { className?: string }) => (
+  <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+    <rect width="4" height="12" x="2" y="9"></rect>
+    <circle cx="4" cy="4" r="2"></circle>
+  </svg>
+);
 
+const YoutubeIcon = ({ className }: { className?: string }) => (
+  <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"></path>
+    <path d="m10 15 5-3-5-3z"></path>
+  </svg>
+);
+
+const socialLinkClass = "p-4 bg-white/5 border border-white/10 rounded-full hover:bg-white/10 transition-colors text-foreground/80 hover:text-foreground";
 
 export function Contact() {
   const { dict } = useLanguage();
@@ -65,7 +80,24 @@ export function Contact() {
               <GithubIcon className="w-5 h-5" />
               <span className="sr-only">GitHub</span>
             </a>
-
+            <a
+              href="https://www.linkedin.com/in/tayro-arce-b0a686372"
+              target="_blank"
+              rel="noreferrer"
+              className={socialLinkClass}
+            >
+              <LinkedinIcon className="w-5 h-5" />
+              <span className="sr-only">LinkedIn</span>
+            </a>
+            <a
+              href="https://www.youtube.com/@TayroArce"
+              target="_blank"
+              rel="noreferrer"
+              className={socialLinkClass}
+            >
+              <YoutubeIcon className="w-5 h-5" />
+              <span className="sr-only">YouTube</span>
+            </a>
           </div>
         </motion.div>
       </div>
