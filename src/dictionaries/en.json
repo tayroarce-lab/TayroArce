@@ -2,38 +2,177 @@
   "hero": {
     "eyebrow": "// Available to work · Costa Rica",
     "headline": "AI Automation Engineer & Full Stack Developer",
-    "subheadline": "I build systems that replace manual work — from SaaS platforms to WhatsApp automation pipelines. Trained at Forward Costa Rica. Available worldwide.",
+    "subheadline": "I build web apps and AI automations that real businesses use every day — from WhatsApp platforms to AI sales agents. Next.js, Node.js, Supabase, n8n and LLMs. Trained at Forward Costa Rica. Open to remote, hybrid or on-site roles.",
     "ctaWork": "View my work",
-    "ctaCv": "Download CV"
+    "ctaCv": "Download CV",
+    "cvFile": "/cv-en.pdf"
+  },
+  "experience": {
+    "title": "Experience",
+    "items": [
+      {
+        "role": "Freelance Full Stack & AI Automation Developer",
+        "company": "Remote",
+        "period": "2026 — Present",
+        "description": "Build and maintain production systems for clients: a WhatsApp switchboard and an AI diagnostics app for a YouTube agency, AI receptionists for clinics, an AI sales agent for an online store and B2B prospecting automation."
+      },
+      {
+        "role": "AI Automation Developer (Backend & Frontend)",
+        "company": "Voltify Ecom Partners",
+        "period": "May 2025 — Feb 2026",
+        "description": "Designed and built AI-powered automation workflows for the agency's clients using LLM APIs, and supported backend and frontend development on client web projects."
+      }
+    ]
   },
   "projects": {
     "title": "Projects",
     "items": [
       {
-        "title": "Alumni Platform UCR",
+        "title": "Juny Relay",
+        "type": "WhatsApp Platform · Full Stack",
+        "note": "Client project · In daily use · Code private",
+        "description": "WhatsApp switchboard for a video-editing agency: editors and clients collaborate in real time through one agency number, while the client's phone, name and photo stay hidden from editors to prevent client poaching. Encrypted storage (AES-256, HMAC-hashed phones), row-level security, a real-time admin panel and an external watchdog that alerts when messages stop flowing.",
+        "stack": [
+          "Next.js",
+          "TypeScript",
+          "Auth.js",
+          "Drizzle ORM",
+          "Supabase (Postgres + RLS + Realtime)",
+          "Evolution API",
+          "Vitest",
+          "Playwright"
+        ],
+        "links": []
+      },
+      {
+        "title": "AI YouTube Channel Diagnostics",
+        "type": "AI Web App · SaaS",
+        "note": "Client project · In production · Code private",
+        "description": "Internal tool for a YouTube growth agency: paste a channel and get a first-draft diagnosis built from real channel data, including thumbnail analysis with vision, a ready-to-send message for the creator, report history and feedback ratings. About USD 0.002 per report.",
+        "stack": [
+          "Next.js",
+          "TypeScript",
+          "Supabase",
+          "OpenAI",
+          "YouTube Data API",
+          "Vercel"
+        ],
+        "links": []
+      },
+      {
+        "title": "Aroma Noir — AI Sales Assistant",
+        "type": "AI Agent · E-commerce",
+        "note": "Live on Instagram",
+        "description": "Perfume store with an AI sales agent on Instagram that advises customers, sends product photos, checks stock, creates orders, reads payment receipts and sends automatic follow-ups within Instagram's 24-hour window. Includes a Next.js storefront and an orders dashboard.",
+        "stack": [
+          "n8n",
+          "OpenAI",
+          "Chatwoot",
+          "Postgres",
+          "Redis",
+          "Next.js",
+          "Zustand"
+        ],
+        "links": [
+          {
+            "label": "Live store",
+            "url": "https://aroma-noir.vercel.app"
+          }
+        ]
+      },
+      {
+        "title": "B2B Email Prospecting System",
+        "type": "Automation · B2B",
+        "note": "Used by real clients",
+        "description": "End-to-end cold-email prospecting for agencies that sell to YouTube channels: lead scraping and enrichment (430+ leads in the first run), automated follow-up sequences and a metrics dashboard. Later adapted to serve several clients with shared contact rules.",
+        "stack": [
+          "n8n",
+          "Supabase",
+          "Docker",
+          "Easypanel",
+          "Next.js"
+        ],
+        "links": []
+      },
+      {
+        "title": "AI Receptionist for Dental Clinics",
+        "type": "AI Chatbot · WhatsApp",
+        "note": "Demo for B2B clients",
+        "description": "Virtual receptionist (\"Sofia\") that books appointments, follows up with patients and transcribes voice notes over WhatsApp, with human handoff in Chatwoot. Paired with Increase Clinic, a small-clinic CRM.",
+        "stack": [
+          "n8n",
+          "Evolution API",
+          "Chatwoot",
+          "OpenAI",
+          "Supabase"
+        ],
+        "links": [
+          {
+            "label": "CRM code",
+            "url": "https://github.com/tayroarce-lab/Increase-Clinic-CRM"
+          }
+        ]
+      },
+      {
+        "title": "Alumni Platform",
         "type": "Web App · Full Stack",
-        "stack": ["Next.js 14", "Supabase", "NextAuth.js v5", "TypeScript", "PostgreSQL"],
-        "description": "Role-based platform for Costa Rica's largest public university, managing alumni records across three user roles (student, alumni, admin). Built with a team under a structured dev workflow."
+        "note": "Team project · Demo",
+        "description": "Platform for an independent alumni foundation that supports UCR students. Three roles (student, alumni, admin), server-side auth enforcing Row Level Security, magic-link login and an AI tool that adapts CVs for ATS in real time with Claude.",
+        "stack": [
+          "Next.js 14",
+          "TypeScript",
+          "Supabase (RLS)",
+          "NextAuth v5",
+          "Claude API"
+        ],
+        "links": []
       },
       {
         "title": "Chamos House",
         "type": "SaaS · Restaurant Management",
-        "stack": ["Node.js", "Express", "TypeScript", "Sequelize", "MySQL", "React", "Socket.io"],
-        "description": "Multi-tenant restaurant SaaS with real-time order management and a WhatsApp chatbot (\"Chamo, ordena\") that lets customers place orders in natural language. Includes live kitchen dashboard via WebSockets."
+        "note": "",
+        "description": "Restaurant management system with real-time order handling and a WhatsApp chatbot (\"Chamo, ordena\") that takes orders in natural language through n8n. Includes a live kitchen display over WebSockets and a sales dashboard.",
+        "stack": [
+          "Node.js",
+          "Express",
+          "TypeScript",
+          "Sequelize",
+          "MySQL",
+          "React",
+          "Socket.io",
+          "n8n"
+        ],
+        "links": [
+          {
+            "label": "Code",
+            "url": "https://github.com/tayroarce-lab/Ordena-Chamo-OS"
+          }
+        ]
       },
       {
-        "title": "AI Outreach System",
-        "type": "Automation · B2B",
-        "stack": ["n8n", "Scraping", "CSV pipeline", "Docker", "Easypanel"],
-        "description": "End-to-end B2B outreach system targeting Youtube Channels Emails. Scraped and processed 430+ leads from Youtube, and built automated follow-up sequences."
-      },
-      {
-        "title": "Clínica Dental Sonrisa+ (Demo)",
-        "type": "AI Chatbot · WhatsApp Automation",
-        "stack": ["n8n", "Evolution API", "Chatwoot", "OpenAI", "Supabase"],
-        "description": "Demo environment for a virtual dental clinic receptionist (\"Sofia\") — handles appointment booking, patient follow-up, and audio transcription via WhatsApp. Built to demonstrate AI automation capabilities to B2B clients."
+        "title": "Ashley — Clothing Catalog",
+        "type": "Web · Catalog",
+        "note": "Live",
+        "description": "Fast catalog for a sportswear seller: 722 models, 1,243 color variants and 4,772 photos with filters, search, a color picker and a WhatsApp button that opens the chat with the product already written.",
+        "stack": [
+          "JavaScript",
+          "HTML/CSS",
+          "Python",
+          "Vercel"
+        ],
+        "links": [
+          {
+            "label": "Live catalog",
+            "url": "https://ashleycatalogo.vercel.app"
+          },
+          {
+            "label": "Code",
+            "url": "https://github.com/tayroarce-lab/ashleycatalogo"
+          }
+        ]
       }
-    ]
+    ],
+    "privateNote": "Client code stays private — descriptions only."
   },
   "education": {
     "title": "Education",
@@ -60,16 +199,41 @@
   },
   "about": {
     "title": "About",
-    "text": "I'm a Full Stack Developer and AI Automation Engineer based in Costa Rica, trained through Forward Costa Rica's Full Stack Web Development and AI Solutions for Business programs. I work at the intersection of product and infrastructure — I can build the UI, design the API, automate the workflow, and self-host the stack. Currently building AutoTaskAI, a B2B automation consultancy for health and dental clinics. Open to remote roles in full-stack development, AI integration, or automation engineering."
+    "text": "I'm a Full Stack Developer and AI Automation Engineer based in Costa Rica, trained through Forward Costa Rica's Full Stack Development and AI Solutions for Business programs. I work across product and infrastructure: I build the UI, design the API and database, connect LLMs to real workflows and deploy the stack. My systems run in production for real clients, and I use AI coding tools (Claude Code, Cursor) daily while reviewing every line they produce. Open to full stack, AI integration and automation roles — remote, hybrid or on-site. Spanish (native) · English (B2)."
   },
   "skills": {
     "title": "Skills",
     "col1_title": "Frontend",
-    "col1_items": ["React", "Next.js", "TypeScript", "Tailwind"],
+    "col1_items": [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Tailwind"
+    ],
     "col2_title": "Backend & Infra",
-    "col2_items": ["Node.js", "Express", "MySQL", "PostgreSQL", "Supabase", "Docker", "Easypanel"],
+    "col2_items": [
+      "Node.js",
+      "Express",
+      "Python",
+      "PostgreSQL",
+      "Supabase",
+      "MySQL",
+      "Drizzle",
+      "Docker",
+      "Vercel",
+      "Easypanel"
+    ],
     "col3_title": "AI & Automation",
-    "col3_items": ["n8n", "Evolution API", "OpenAI", "Anthropic", "LangChain", "Chatwoot", "Make"]
+    "col3_items": [
+      "n8n",
+      "OpenAI",
+      "Anthropic",
+      "LangChain",
+      "Evolution API",
+      "Chatwoot",
+      "Redis",
+      "Make"
+    ]
   },
   "contact": {
     "title": "Contact",

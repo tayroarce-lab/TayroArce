@@ -17,7 +17,7 @@ export function Education() {
           viewport={{ once: true }}
           className="mb-16"
         >
-          <p className="text-accent font-mono text-sm mb-3">// {dict.education.title.toLowerCase()}</p>
+          <p className="text-accent font-mono text-sm mb-3">{"// "}{dict.education.title.toLowerCase()}</p>
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight">{dict.education.title}</h2>
         </motion.div>
 

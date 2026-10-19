@@ -55,8 +55,9 @@ export function Hero() {
               <ArrowRight className="w-4 h-4" />
             </a>
             <a
-              href="/cv.pdf"
+              href={dict.hero.cvFile}
               target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center gap-2 bg-white/5 border border-white/10 text-foreground px-6 py-3 rounded-md font-medium hover:bg-white/10 transition-colors"
             >
               <FileText className="w-4 h-4" />

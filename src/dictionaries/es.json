@@ -1,39 +1,178 @@
 {
   "hero": {
     "eyebrow": "// Disponible para trabajar · Costa Rica",
-    "headline": "Ing. en Automatización IA y Desarrollador Full Stack",
-    "subheadline": "Construyo sistemas que reemplazan el trabajo manual — desde plataformas SaaS hasta pipelines de automatización en WhatsApp. Formado en Forward Costa Rica. Disponible a nivel mundial.",
+    "headline": "Ingeniero de Automatización con IA y Desarrollador Full Stack",
+    "subheadline": "Construyo apps web y automatizaciones con IA que negocios reales usan a diario — desde plataformas de WhatsApp hasta agentes de ventas con IA. Next.js, Node.js, Supabase, n8n y LLMs. Formado en Forward Costa Rica. Disponible para trabajo remoto, híbrido o presencial.",
     "ctaWork": "Ver mi trabajo",
-    "ctaCv": "Descargar CV"
+    "ctaCv": "Descargar CV",
+    "cvFile": "/cv-es.pdf"
+  },
+  "experience": {
+    "title": "Experiencia",
+    "items": [
+      {
+        "role": "Desarrollador Freelance Full Stack y de Automatización con IA",
+        "company": "Remoto",
+        "period": "2026 — Presente",
+        "description": "Construyo y mantengo sistemas en producción para clientes: una centralita de WhatsApp y una app de diagnóstico con IA para una agencia de YouTube, recepcionistas con IA para clínicas, un agente de ventas con IA para una tienda online y automatización de prospección B2B."
+      },
+      {
+        "role": "Desarrollador de Automatizaciones con IA (Backend y Frontend)",
+        "company": "Voltify Ecom Partners",
+        "period": "May 2025 — Feb 2026",
+        "description": "Diseñé y construí flujos de automatización con IA para los clientes de la agencia usando APIs de modelos de lenguaje, y apoyé el desarrollo backend y frontend de proyectos web de clientes."
+      }
+    ]
   },
   "projects": {
     "title": "Proyectos",
     "items": [
       {
-        "title": "Plataforma Alumni UCR",
-        "type": "Aplicación Web · Full Stack",
-        "stack": ["Next.js 14", "Supabase", "NextAuth.js v5", "TypeScript", "PostgreSQL"],
-        "description": "Plataforma basada en roles para la universidad pública más grande de Costa Rica, gestionando registros de exalumnos en tres roles de usuario (estudiante, exalumno, administrador). Construida con un equipo bajo un flujo de trabajo estructurado."
+        "title": "Juny Relay",
+        "type": "Plataforma de WhatsApp · Full Stack",
+        "note": "Proyecto de cliente · En uso diario · Código privado",
+        "description": "Centralita de WhatsApp para una agencia de edición de vídeo: editores y clientes colaboran en tiempo real a través de un único número de la agencia, y el teléfono, nombre y foto del cliente quedan ocultos para el editor, evitando fugas de clientes. Datos cifrados (AES-256, teléfonos con HMAC), seguridad a nivel de fila, panel de administración en tiempo real y un vigilante externo que avisa si los mensajes dejan de fluir.",
+        "stack": [
+          "Next.js",
+          "TypeScript",
+          "Auth.js",
+          "Drizzle ORM",
+          "Supabase (Postgres + RLS + Realtime)",
+          "Evolution API",
+          "Vitest",
+          "Playwright"
+        ],
+        "links": []
+      },
+      {
+        "title": "Diagnóstico de Canales de YouTube con IA",
+        "type": "App Web con IA · SaaS",
+        "note": "Proyecto de cliente · En producción · Código privado",
+        "description": "Herramienta interna para una agencia de crecimiento en YouTube: pegas un canal y obtienes un primer borrador de diagnóstico con datos reales del canal, análisis de la miniatura con visión, un mensaje listo para enviar al creador, historial de informes y valoraciones. Unos 0,002 USD por informe.",
+        "stack": [
+          "Next.js",
+          "TypeScript",
+          "Supabase",
+          "OpenAI",
+          "YouTube Data API",
+          "Vercel"
+        ],
+        "links": []
+      },
+      {
+        "title": "Aroma Noir — Asistente de Ventas con IA",
+        "type": "Agente IA · E-commerce",
+        "note": "En vivo en Instagram",
+        "description": "Tienda de perfumes con un agente de ventas con IA en Instagram que asesora, envía fotos, consulta stock, crea pedidos, lee comprobantes de pago y hace seguimientos automáticos dentro de la ventana de 24 h de Instagram. Incluye tienda en Next.js y panel de pedidos.",
+        "stack": [
+          "n8n",
+          "OpenAI",
+          "Chatwoot",
+          "Postgres",
+          "Redis",
+          "Next.js",
+          "Zustand"
+        ],
+        "links": [
+          {
+            "label": "Tienda en vivo",
+            "url": "https://aroma-noir.vercel.app"
+          }
+        ]
+      },
+      {
+        "title": "Sistema de Prospección B2B por Correo",
+        "type": "Automatización · B2B",
+        "note": "Usado por clientes reales",
+        "description": "Prospección por correo en frío de punta a punta para agencias que venden a canales de YouTube: extracción y enriquecimiento de leads (más de 430 en la primera tanda), secuencias de seguimiento automáticas y panel de métricas. Adaptado después para varios clientes con reglas de contacto compartidas.",
+        "stack": [
+          "n8n",
+          "Supabase",
+          "Docker",
+          "Easypanel",
+          "Next.js"
+        ],
+        "links": []
+      },
+      {
+        "title": "Recepcionista con IA para Clínicas Dentales",
+        "type": "Chatbot IA · WhatsApp",
+        "note": "Demo para clientes B2B",
+        "description": "Recepcionista virtual (\"Sofía\") que agenda citas, da seguimiento a pacientes y transcribe notas de voz por WhatsApp, con paso a humano en Chatwoot. Se complementa con Increase Clinic, un CRM para clínicas pequeñas.",
+        "stack": [
+          "n8n",
+          "Evolution API",
+          "Chatwoot",
+          "OpenAI",
+          "Supabase"
+        ],
+        "links": [
+          {
+            "label": "Código del CRM",
+            "url": "https://github.com/tayroarce-lab/Increase-Clinic-CRM"
+          }
+        ]
+      },
+      {
+        "title": "Plataforma de Exalumnos",
+        "type": "App Web · Full Stack",
+        "note": "Proyecto en equipo · Demo",
+        "description": "Plataforma para una fundación independiente de exalumnos que apoya a estudiantes de la UCR. Tres roles (estudiante, exalumno, administrador), autenticación en el servidor que obliga a cumplir Row Level Security, acceso por enlace mágico y una herramienta con IA que adapta CVs para ATS en tiempo real con Claude.",
+        "stack": [
+          "Next.js 14",
+          "TypeScript",
+          "Supabase (RLS)",
+          "NextAuth v5",
+          "Claude API"
+        ],
+        "links": []
       },
       {
         "title": "Chamos House",
         "type": "SaaS · Gestión de Restaurantes",
-        "stack": ["Node.js", "Express", "TypeScript", "Sequelize", "MySQL", "React", "Socket.io"],
-        "description": "SaaS multi-inquilino para restaurantes con gestión de pedidos en tiempo real y un chatbot de WhatsApp (\"Chamo, ordena\") que permite a los clientes hacer pedidos en lenguaje natural. Incluye dashboard de cocina en vivo vía WebSockets."
+        "note": "",
+        "description": "Sistema de gestión para restaurantes con pedidos en tiempo real y un chatbot de WhatsApp (\"Chamo, ordena\") que toma pedidos en lenguaje natural mediante n8n. Incluye pantalla de cocina en vivo con WebSockets y panel de ventas.",
+        "stack": [
+          "Node.js",
+          "Express",
+          "TypeScript",
+          "Sequelize",
+          "MySQL",
+          "React",
+          "Socket.io",
+          "n8n"
+        ],
+        "links": [
+          {
+            "label": "Código",
+            "url": "https://github.com/tayroarce-lab/Ordena-Chamo-OS"
+          }
+        ]
       },
       {
-        "title": "Sistema de Prospección IA",
-        "type": "Automatización · B2B",
-        "stack": ["n8n", "Scraping", "CSV pipeline", "Docker", "Easypanel"],
-        "description": "Sistema de prospección B2B integral dirigido a correos de canales de Youtube. Extrajo y procesó más de 430 prospectos de Youtube, y construyó secuencias de seguimiento automatizadas."
-      },
-      {
-        "title": "Clínica Dental Sonrisa+ (Demo)",
-        "type": "Chatbot IA · Automatización en WhatsApp",
-        "stack": ["n8n", "Evolution API", "Chatwoot", "OpenAI", "Supabase"],
-        "description": "Entorno de demostración para una recepcionista virtual de clínica dental (\"Sofia\") — maneja la reserva de citas, seguimiento de pacientes y transcripción de audio vía WhatsApp. Construido para demostrar las capacidades de automatización IA a clientes B2B."
+        "title": "Ashley — Catálogo de Ropa",
+        "type": "Web · Catálogo",
+        "note": "En vivo",
+        "description": "Catálogo rápido para una vendedora de ropa deportiva: 722 modelos, 1.243 variantes de color y 4.772 fotos, con filtros, buscador, selector de color y un botón de WhatsApp que abre el chat con el producto ya escrito.",
+        "stack": [
+          "JavaScript",
+          "HTML/CSS",
+          "Python",
+          "Vercel"
+        ],
+        "links": [
+          {
+            "label": "Catálogo en vivo",
+            "url": "https://ashleycatalogo.vercel.app"
+          },
+          {
+            "label": "Código",
+            "url": "https://github.com/tayroarce-lab/ashleycatalogo"
+          }
+        ]
       }
-    ]
+    ],
+    "privateNote": "El código de clientes es privado: solo describo lo que hace."
   },
   "education": {
     "title": "Educación",
@@ -60,16 +199,41 @@
   },
   "about": {
     "title": "Sobre Mí",
-    "text": "Soy un Desarrollador Full Stack y Arquitecto de Automatización IA radicado en Costa Rica, formado a través de los programas de Desarrollo Web Full Stack y Soluciones IA para Negocios de Forward Costa Rica. Trabajo en la intersección del producto y la infraestructura — puedo construir la interfaz de usuario, diseñar la API, automatizar el flujo de trabajo y auto-hospedar la plataforma. Actualmente construyendo AutoTaskAI, una consultoría de automatización B2B para clínicas dentales y de salud. Abierto a roles remotos en desarrollo full-stack, integración de IA o ingeniería de automatización."
+    "text": "Soy Desarrollador Full Stack e Ingeniero de Automatización con IA en Costa Rica, formado en los programas de Desarrollo Full Stack y Soluciones de IA para Negocios de Forward Costa Rica. Trabajo entre el producto y la infraestructura: construyo la interfaz, diseño la API y la base de datos, conecto modelos de lenguaje a procesos reales y despliego todo. Mis sistemas funcionan en producción para clientes reales, y uso herramientas de IA para programar (Claude Code, Cursor) a diario, revisando cada línea que generan. Abierto a puestos full stack, de integración de IA y de automatización — remoto, híbrido o presencial. Español (nativo) · Inglés (B2)."
   },
   "skills": {
     "title": "Habilidades",
     "col1_title": "Frontend",
-    "col1_items": ["React", "Next.js", "TypeScript", "Tailwind"],
+    "col1_items": [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Tailwind"
+    ],
     "col2_title": "Backend e Infraestructura",
-    "col2_items": ["Node.js", "Express", "MySQL", "PostgreSQL", "Supabase", "Docker", "Easypanel"],
+    "col2_items": [
+      "Node.js",
+      "Express",
+      "Python",
+      "PostgreSQL",
+      "Supabase",
+      "MySQL",
+      "Drizzle",
+      "Docker",
+      "Vercel",
+      "Easypanel"
+    ],
     "col3_title": "IA y Automatización",
-    "col3_items": ["n8n", "Evolution API", "OpenAI", "Anthropic", "LangChain", "Chatwoot", "Make"]
+    "col3_items": [
+      "n8n",
+      "OpenAI",
+      "Anthropic",
+      "LangChain",
+      "Evolution API",
+      "Chatwoot",
+      "Redis",
+      "Make"
+    ]
   },
   "contact": {
     "title": "Contacto",
